@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*取消列表的图标内容*/
+ul{
+    list-style: none;
+}
+.container{
+    color: #464545;
+    width: 750px;
+    min-height: 1334px;
+    overflow: auto;
+}
+.banner{
+    width: 100%;
+    height: 307px;
+    border: 0;
+    margin-top: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.img li{
+    float: left;
+    height: 100%;
+}
+
+.hide{
+    display: none;
+}
+
+.navigationTitle{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.navigationTitle span{
+    font-size: 21.3px;
+    font-weight: 600;
+}
+/* 定位距离顶部广告高+导航标题top+导航标题字体宽度的一半*/
+.navigationTitle span:before, .navigationTitle span:after{
+    content: '';
+    position: absolute;
+    top: 400px;
+    width: 25%;
+    height: 3.3px;
+}
+.navigationTitle span:before{
+    left: 10%;
+    background-image: linear-gradient(to right , #fff, #e5e5e5);
+}
+.navigationTitle span:after{
+    right: 10%;
+    background-image: linear-gradient(to left , #fff, #e5e5e5);
+}
+
+.bottom{
+    width: 750px;
+    height: 66.7px;
+    background: #e5e5e5;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom img{
+    height: 60%;
+}
+.bottom input{
+    width: 40%;
+    margin-left: 2%;
+    border-radius: 13.34px;
+    border: 1px solid #fefefe;
+    background-color: #e5e5e5;
+    font-size: 24px;
+    text-align:center;
+    padding: 0;
+    background: url(../imgs/bottom2.png) no-repeat;
+    background-position: 95%;
+}
+
+.navigation{
+    width: 100%;
+    height: 110px;
+    margin-top: 33.35px;
+    margin-bottom: 13.34px;
+    text-align: center;
+}
+.navigation > div{
+    display: inline-block;
+    width: 15%;
+    height: 100%;
+    font-size: 19.5px;
+    margin: 0 3%;
+}
+.navigation img{
+    width: 101px;
+    height: 80px;
+}
+
+hr{
+    border: 2.25px solid #e5e5e5;
+    color: #e5e5e5;
+    width: 750px;
+}
+
+.productTitle{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 13.34px;
+}
+.productTitle div{
+    float: left;
+    width: 1.3vw;
+    height: 100%;
+    margin-left: 25px;
+    margin-right: 15px;
+    background: #1fbcff;
+    border: 0;
+}
+.productTitle span{
+    font-size: 26.68px;
+    font-weight: 600;
+}
+
+.productList{
+    margin-bottom: 70px;
+}
+.product{
+    border: 1px solid #c5c5c5;
+    margin: 0 9% 3%;
+    height: 173.42px;
+}
+.producetLeft{
+    margin: 3% 15%;
+    float: left;
+    width: 100px;
+    height: 90%;
+    text-align: center;
+}
+.producetLeft img{
+    width: 90px;
+    height: 60%;
+    margin-bottom: 4%;
+}
+.producetLeft p,.producetRight p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.producetRight{
+    margin: 5% 10% 2%;
+    float: right;
+    width: 200px;
+    height: 90%;
+    text-align: left;
+}
+.producetRight button{
+    margin-top: 14%;
+    font-size: 20px;
+    padding: 6.7px 37.5px;
+    background: #fe942e;
+    border: 0;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.service{
+    position: absolute;
+    top: 267px;
+    left: 56.25px;
+    right: 56.25px;
+    border: 2px solid #c5c5c5;
+    height: 106.72;
+    border-radius: 30px;
+    background: #fff;
+}
+.service div{
+    width: 315px;
+    background: #fff;
+    margin: 1% 0 1% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.serviceLeft{
+    float: left;
+    border-left: 0;
+    border-right: 2px solid #c5c5c5;
+    border-top: 0;
+    border-bottom: 0;
+    border-radius: 29px 0 0 29px;
+}
+.serviceRight{
+    float: right;
+    border: 0;
+    border-radius: 0 29px 29px 0;
+}
+.service div img{
+    width: 88px;
+    height: 88px;
+}
+.service div span{
+    font-size: 21px;
+    font-weight: 500;
+    margin-left: 22px;
+}
